@@ -19,7 +19,7 @@ related:
 
 Knowledge base of the content-factory venture. Semantic map — start here, follow links by
 topic. Door is `../CLAUDE.md`. Conforms to
-`[[vlad-vault/vault-template|vlad-vault/vault-template]]`.
+[[vlad-vault/vault-template|vlad-vault/vault-template]].
 
 > **Перепрофилирование 2026-07-04:** рабочая роль завода = **цех** (процессы контента
 > Скандара, станки, intake, автопостинг) → [[content-factory/content-factory-vault/decisions/2026-07-04-factory-as-workshop|decisions/2026-07-04-factory-as-workshop]].

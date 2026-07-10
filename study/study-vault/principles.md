@@ -13,8 +13,8 @@ related:
 
 # Principles — study (deltas)
 
-Follows the **vlad base**: `[[vlad-vault/principles|vlad-vault/principles]]` +
-`[[vlad-vault/vault-template|vlad-vault/vault-template]]`. Only deltas here.
+Follows the **vlad base**: [[vlad-vault/principles|vlad-vault/principles]] +
+[[vlad-vault/vault-template|vlad-vault/vault-template]]. Only deltas here.
 
 ## Deltas
 

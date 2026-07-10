@@ -16,7 +16,7 @@ related:
 # study-vault
 
 Knowledge base of the study domain. Semantic map — start here. Door is
-`../CLAUDE.md`. Conforms to `[[vlad-vault/vault-template|vlad-vault/vault-template]]`.
+`../CLAUDE.md`. Conforms to [[vlad-vault/vault-template|vlad-vault/vault-template]].
 
 ## What this is
 

@@ -17,4 +17,4 @@ Pointers only, never values (vlad base rule).
 
 - None yet. Доступы площадок (дистрибьютор, стриминги, соцсети музыки) — при
   появлении в `.env`/`~/vlad/secrets/`, здесь только указатели. Global map:
-  `[[vlad-vault/secrets-map|vlad-vault/secrets-map]]`.
+  [[vlad-vault/secrets-map|vlad-vault/secrets-map]].

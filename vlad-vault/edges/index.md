@@ -15,7 +15,7 @@ related:
 Durable cross-domain edges.
 
 An edge is a small markdown object that materializes a connection between two
-objects when a plain `[[wikilink]]` is not enough: cross-vault links, private
+objects when a plain [[wikilink]] is not enough: cross-vault links, private
 endpoints, mixed `scope`, or a relation that needs provenance.
 
 ## Why this exists

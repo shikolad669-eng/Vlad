@@ -13,8 +13,8 @@ related:
 
 # Principles — music (deltas)
 
-Follows the **vlad base**: `[[vlad-vault/principles|vlad-vault/principles]]` (object rules) +
-`[[vlad-vault/vault-template|vlad-vault/vault-template]]` (structure & entry points). Only deltas
+Follows the **vlad base**: [[vlad-vault/principles|vlad-vault/principles]] (object rules) +
+[[vlad-vault/vault-template|vlad-vault/vault-template]] (structure & entry points). Only deltas
 here.
 
 ## Deltas

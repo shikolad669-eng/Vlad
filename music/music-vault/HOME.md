@@ -16,7 +16,7 @@ related:
 # music-vault
 
 Knowledge base of the music domain. Semantic map — start here, follow links by
-topic. Door is `../CLAUDE.md`. Conforms to `[[vlad-vault/vault-template|vlad-vault/vault-template]]`.
+topic. Door is `../CLAUDE.md`. Conforms to [[vlad-vault/vault-template|vlad-vault/vault-template]].
 
 ## What this is
 
