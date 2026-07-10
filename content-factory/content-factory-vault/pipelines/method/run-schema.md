@@ -26,7 +26,7 @@ related:
 1. **Полный record — в бандл витрины** (`trust: primary`, у Денни):
    `~/vlad/danny-content/posts/<YYYY-MM-DD-slug>/run.md`. Пишет **Денни** сразу после прогона.
    Живёт с роликом; не копируется наверх целиком.
-2. **Регистрация — строка в [[../runs/README]]** (карта прогонов). Денни добавляет одну строку
+2. **Регистрация — строка в [[content-factory/content-factory-vault/pipelines/runs/README|runs/README]]** (карта прогонов). Денни добавляет одну строку
    (чтобы карта не устаревала — та же дисциплина, что «обновить README» в post-workflow).
 3. **Дистиллят — в `pipelines/runs/<slug>.md`** лифтит **meta-layer** (аналитическая сессия), не
    Денни. Только cross-run-релевантная дельта.
@@ -51,8 +51,8 @@ status: done
   выходам: **пост · название кавера · текст инфографики** — сколько правок и какие. Это видео-аналог
   vibecode-tail: **сжимается от прогона к прогону → конвейер улучшается**; растёт → авто-драфты
   деградируют. Мерить, не забывать.
-- **Грабли** — известная сработала (гейт поймал?) / **новая** (→ строка в [[../lessons/README]] +
-  дельта в [[../../processes/video-station]]).
+- **Грабли** — известная сработала (гейт поймал?) / **новая** (→ строка в [[content-factory/content-factory-vault/pipelines/lessons/README|lessons/README]] +
+  дельта в [[content-factory/content-factory-vault/processes/video-station|processes/video-station]]).
 - **Дельты** — в код (`video-pipeline/`), в ремесло (video-station), в канон (pipelines). Что
   предложено поднять.
 - **Carried / TODO** — что осталось на следующий прогон.

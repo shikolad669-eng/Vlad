@@ -24,4 +24,4 @@ Hot state. Read at session start; keep small and current.
 
 ## Pointers
 
-- Карта: [[HOME]] · правила: [[principles]].
+- Карта: [[music/music-vault/HOME|HOME]] · правила: [[music/music-vault/principles|principles]].

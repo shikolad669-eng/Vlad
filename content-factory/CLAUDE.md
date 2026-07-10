@@ -41,3 +41,5 @@ Read first (the brain is the vault):
   `gen/` (ИИ-генерации, derived) + `ref/` (чужие референсы, study-only).
   Содержимое вне git. См. `intake/README.md`.
 - (pipeline code / tools будут добавлены как проекты, каждый со своим CLAUDE.md.)
+
+> Карта: [[content-factory/content-factory-vault/HOME|HOME]] · intake: [[content-factory/intake/README|intake/]] · верх: [[CLAUDE|карта неймспейса]]

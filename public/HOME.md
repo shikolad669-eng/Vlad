@@ -25,3 +25,5 @@ _(пусто — появятся с первым внешним артефак�
 
 > Черновики контента живут в `../danny-content/drafts/`, not here — those are
 > content, not finished public artifacts.
+
+См. также: [[vlad-vault/HOME|meta-vault]].

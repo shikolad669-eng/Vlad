@@ -11,3 +11,5 @@ Primary personal source (`trust: primary`). The live, light first-source:
 
 > **Invariant (all levels):** NEVER `AskUserQuestion` / popup choice dialogs —
 > questions always in plain text.
+
+> Карта: [[vlad-life/HOME|HOME]] · верх: [[CLAUDE|карта неймспейса]]

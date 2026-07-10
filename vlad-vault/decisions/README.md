@@ -23,7 +23,7 @@ they save the next session from re-litigating.
 - Frontmatter: `type: decision`, `status: accepted | active | superseded`,
   `date`, `tags`, `related`.
 - A superseded decision stays (provenance) with a pointer to what replaced it.
-- Ripening path: [[../ideas/README|ideas/]] → here.
+- Ripening path: [[vlad-vault/ideas/README|ideas/]] → here.
 
 ## Index
 

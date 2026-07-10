@@ -20,3 +20,5 @@ projection (agent Денни); `../vlad-vault/` = the meta-vault (knowledge).
 ## Inside
 
 _(пусто — первый внешний артефакт создаст свою подпапку + строку в HOME.md)_
+
+> Карта: [[public/HOME|HOME]] · верх: [[CLAUDE|карта неймспейса]]

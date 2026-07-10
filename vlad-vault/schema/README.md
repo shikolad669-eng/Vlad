@@ -18,7 +18,7 @@ way. When practice changes, update the schema first, then migrate files.
 
 ## Contracts
 
-- [[schema/frontmatter|Frontmatter schema]] — required fields, status enum,
+- [[vlad-vault/schema/frontmatter|Frontmatter schema]] — required fields, status enum,
   and metadata semantics for retrieval.
 
 ## Rule

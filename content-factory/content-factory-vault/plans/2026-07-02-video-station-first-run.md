@@ -18,7 +18,7 @@ related:
 Самодостаточен для агента этого домена.
 
 **Рамка:** домен остаётся concept-stage. Это НЕ «строить фабрику» — это первая
-полуручная поставка по build-discipline из [[vision]] (поставить руками,
+полуручная поставка по build-discipline из [[content-factory/content-factory-vault/plans/vision|vision]] (поставить руками,
 систематизировать только то, что повторяется). Станции 3–4 из vision получают
 первый реальный прогон.
 
@@ -86,7 +86,7 @@ build-discipline, что и видео.
 SaaS-нарезка: Opus Clip / Klap / Vizard — тест за Skandar (нужен аккаунт).
 Главная проверка — качество русских субтитров.
 
-Research 2026-07-04 ([[../research/2026-07-04-agentic-montage-frameworks]]):
+Research 2026-07-04 ([[content-factory/content-factory-vault/research/2026-07-04-agentic-montage-frameworks|research/2026-07-04-agentic-montage-frameworks]]):
 у всех трёх публичные API, русский заявлен (реально ~85–95% по community —
 ручной проход остаётся). Порядок пилота: **Klap API** (pay-per-op ≈$16 разово;
 ⚠️ проверить лимит длительности) → **Vizard** (free 60 мин с вотермаркой на

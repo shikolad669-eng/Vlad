@@ -29,7 +29,7 @@ related:
 
 - **Конвейер (здесь, `pipelines/`)** — агентская механика: стримы, контракт ручное/авто, гейты,
   review-чекпоинт, субагенты, I/O content-type. Ось **agentic**.
-- **Ремесло ([[../processes/video-station]])** — константы и ffmpeg-команды: тонмап-цепочки, LUFS,
+- **Ремесло ([[content-factory/content-factory-vault/processes/video-station|processes/video-station]])** — константы и ffmpeg-команды: тонмап-цепочки, LUFS,
   crf, цвета, шрифты, грабли жанра. Продукт цеха.
 - **Код (`video-pipeline/` в корне завода)** — исполняемые модули (инструменты стримов).
 
@@ -45,26 +45,26 @@ related:
 
 ## Method (canon)
 
-- [[method/streams]] — 5 стримов, контракт ручное/авто, 4 код-гейта, show-then-fix чекпоинт,
+- [[content-factory/content-factory-vault/pipelines/method/streams|method/streams]] — 5 стримов, контракт ручное/авто, 4 код-гейта, show-then-fix чекпоинт,
   политика субагентов.
-- [[method/run-schema]] — что Денни пишет после прогона (`run.md` в бандл + строка в runs/):
+- [[content-factory/content-factory-vault/pipelines/method/run-schema|method/run-schema]] — что Денни пишет после прогона (`run.md` в бандл + строка в runs/):
   гейты, **residual чекпоинта** (сигнал улучшения), грабли, дельты. Петля улучшения конвейера.
 
 ## Content-type (один на тип `вход × цель`)
 
-- [[content-type/talking-head]] — **ЗАПОЛНЕН**: разговорное видео → рил (обложка + сабы + инфографика +
+- [[content-factory/content-factory-vault/pipelines/content-type/talking-head|content-type/talking-head]] — **ЗАПОЛНЕН**: разговорное видео → рил (обложка + сабы + инфографика +
   сжат) + пост ≤5 тегов.
-- Слоты (0 прогонов, вне скоупа): [[content-type/generative]] (трек A · Veo) · [[content-type/vfx-track]]
-  (трек C) · [[content-type/long-cut]] (трек D · нарезка) · [[content-type/carousel]] · [[content-type/post-only]].
+- Слоты (0 прогонов, вне скоупа): [[content-factory/content-factory-vault/pipelines/content-type/generative|content-type/generative]] (трек A · Veo) · [[content-factory/content-factory-vault/pipelines/content-type/vfx-track|content-type/vfx-track]]
+  (трек C) · [[content-factory/content-factory-vault/pipelines/content-type/long-cut|content-type/long-cut]] (трек D · нарезка) · [[content-factory/content-factory-vault/pipelines/content-type/carousel|content-type/carousel]] · [[content-factory/content-factory-vault/pipelines/content-type/post-only|content-type/post-only]].
 
 ## Runs
 
-- [[runs/README]] — ретро прогонов. Run-data роликов живёт в бандлах витрин (primary), сюда —
+- [[content-factory/content-factory-vault/pipelines/runs/README|runs/README]] — ретро прогонов. Run-data роликов живёт в бандлах витрин (primary), сюда —
   только дистиллят. Зеркало agentics/runs.
 
 ## Lessons
 
-- [[lessons/README]] — грабли, ставшие код-гейтами: контраст-структурный · рендерер-общий ·
+- [[content-factory/content-factory-vault/pipelines/lessons/README|lessons/README]] — грабли, ставшие код-гейтами: контраст-структурный · рендерер-общий ·
   тонмап-первым · аудио-экспорт-стерео. rule + trigger.
 
 ## Open threads
@@ -81,4 +81,4 @@ related:
 
 ---
 
-See also: [[../HOME]] · [[../processes/video-station]] · [[../../../vlad-vault/agentics/HOME]].
+See also: [[content-factory/content-factory-vault/HOME|HOME]] · [[content-factory/content-factory-vault/processes/video-station|processes/video-station]] · [[vlad-vault/agentics/README|vlad-vault/agentics]].

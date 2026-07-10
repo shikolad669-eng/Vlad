@@ -56,3 +56,5 @@ Distinct from siblings: `../public/` = finished outward artifacts;
 - `post-workflow.md` — **пошаговый процесс создания поста**. Читать перед тем,
   как делать пост — иначе будешь переспрашивать уже решённое.
 - `posts/README.md` — журнал + локальные правила стора; спек бандла — у завода.
+
+> Карта: [[danny-content/HOME|HOME]] · верх: [[CLAUDE|карта неймспейса]]

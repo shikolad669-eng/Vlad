@@ -25,3 +25,5 @@ Read first (the brain is the vault):
 - `study-vault/` — the knowledge base (see HOME).
 - Учебные PDF/материалы-файлы → `~/vlad/documents/` (вне git) с
   карточкой-указателем здесь.
+
+> Карта: [[study/study-vault/HOME|HOME]] · верх: [[CLAUDE|карта неймспейса]]

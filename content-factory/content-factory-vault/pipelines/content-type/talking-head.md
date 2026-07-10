@@ -16,8 +16,8 @@ related:
 
 # Content-type — разговорное видео (talking-head + инфографика)
 
-Первый заполненный content-type. Трек B + «плашки над головой». Механика — [[../method/streams]];
-ремесленные пороги/цифры — [[../../processes/video-station]] («Трек B» + «Инфографика-плашки над
+Первый заполненный content-type. Трек B + «плашки над головой». Механика — [[content-factory/content-factory-vault/pipelines/method/streams|method/streams]];
+ремесленные пороги/цифры — [[content-factory/content-factory-vault/processes/video-station|processes/video-station]] («Трек B» + «Инфографика-плашки над
 головой»); код — `video-pipeline/`.
 
 ## Контракт I/O
@@ -79,8 +79,8 @@ related:
 12. **qa** гейты: длительность (рассинхрон concat — тихий брак) · L/R RMS равны · контраст-floor. [авто]
 13. **review-чекпоинт (show-then-fix):** показать Скандару рил + кавер + подпись; правки по 3
     контентным выходам → пере-гон только дешёвых задетых шагов → `status: ready`.
-14. **record** — Денни пишет `run.md` в бандл по [[../method/run-schema]] (гейты, residual правок
-    чекпоинта, грабли, дельты) + строка в [[../runs/README]]. Без записи прогон ничему не учит. [Денни]
+14. **record** — Денни пишет `run.md` в бандл по [[content-factory/content-factory-vault/pipelines/method/run-schema|method/run-schema]] (гейты, residual правок
+    чекпоинта, грабли, дельты) + строка в [[content-factory/content-factory-vault/pipelines/runs/README|runs/README]]. Без записи прогон ничему не учит. [Денни]
 
 ## Ручное / авто (сводка)
 
@@ -95,11 +95,11 @@ related:
 
 ## Бандл
 
-`~/vlad/danny-content/posts/YYYY-MM-DD-<slug>/` по [[../../content-bundle-spec]]:
+`~/vlad/danny-content/posts/YYYY-MM-DD-<slug>/` по [[content-factory/content-factory-vault/content-bundle-spec|content-bundle-spec]]:
 `post.md` (source, подпись одним блоком) · `<slug>.mp4` · `<slug>-cover.jpg` · `work/`
-(воспроизводимость: скрипты + промежуточные) · `run.md` (run-данные по [[../method/run-schema]]).
+(воспроизводимость: скрипты + промежуточные) · `run.md` (run-данные по [[content-factory/content-factory-vault/pipelines/method/run-schema|method/run-schema]]).
 Статус `draft → ready → posted`; постинг — по команде Скандара.
 
 ---
 
-See also: [[../method/streams]] · [[../../processes/video-station]] · [[../../content-bundle-spec]].
+See also: [[content-factory/content-factory-vault/pipelines/method/streams|method/streams]] · [[content-factory/content-factory-vault/processes/video-station|processes/video-station]] · [[content-factory/content-factory-vault/content-bundle-spec|content-bundle-spec]].

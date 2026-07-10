@@ -16,22 +16,22 @@
 
 ---
 
-## 📓 [[diary/README|Diary]]
+## 📓 [[vlad-life/diary/README|Diary]]
 
 Ежедневник `ДД.ММ.ГГ.md`. Содержимое вне git (личное — локально).
 
-## ✍️ [[texts/README|Texts]]
+## ✍️ [[vlad-life/texts/README|Texts]]
 
 Эссе, тексты песен, посты, осмысления — авторское.
 
-## 📥 [[inbox/README|Inbox]]
+## 📥 [[vlad-life/inbox/README|Inbox]]
 
 Сброс личного, что ещё не разложено. Содержимое вне git.
 
-## 🧩 [[templates/diary-entry|Templates]]
+## 🧩 [[vlad-life/templates/diary-entry|Templates]]
 
 Шаблоны записей.
 
 ---
 
-См. также: [[principles]] — правила vault'а.
+См. также: [[vlad-life/principles|principles]] — правила vault'а.

@@ -15,4 +15,4 @@ related: [../HOME, ../method/streams, ../../../skandar/danny-content/post-workfl
 `danny-content/post-workflow.md` (материал → структура → драфт Скандара → полировка → мета → бандл).
 
 **Форма при заполнении:** вход = мысль/факт/прогон + бриф → каркас (агент) → текст (Скандар) →
-подпись ≤ теги + фото. Тот же show-then-fix чекпоинт и «финал за Скандаром». Механика — [[../method/streams]].
+подпись ≤ теги + фото. Тот же show-then-fix чекпоинт и «финал за Скандаром». Механика — [[content-factory/content-factory-vault/pipelines/method/streams|method/streams]].

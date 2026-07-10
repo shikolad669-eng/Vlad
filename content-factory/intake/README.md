@@ -8,6 +8,9 @@
 
 ## Раскладка
 
+(двери подпапок: [[content-factory/intake/inbox/README|inbox]] · [[content-factory/intake/raw/README|raw]] · [[content-factory/intake/gen/README|gen]] · [[content-factory/intake/ref/README|ref]])
+
+
 - `inbox/` — неразобранное: стащено с точек сброса, ещё не разложено.
 - `raw/` — после разбора: **записи Влада** (видео, аудио). `trust: primary` —
   незаменимо, **не удалять**.
@@ -26,3 +29,5 @@
 4. **отработано** — исходник остаётся здесь (raw — навсегда, gen — можно чистить).
 
 Витринные агенты (Денни) intake **читают**, разбирают в него не пишут.
+
+Карта завода: [[content-factory/content-factory-vault/HOME|HOME]].

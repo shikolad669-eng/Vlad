@@ -11,13 +11,13 @@ updated: 2026-06-04
 
 This is the **base** for vault conventions across the namespace. Project vaults
 (`music-vault`, `study-vault`, `content-factory-vault`, …) state only their
-**deltas** against this file. Structure & entry points are in [[vault-template]];
+**deltas** against this file. Structure & entry points are in [[vlad-vault/vault-template|vault-template]];
 this file holds the object-level writing rules.
 
 **Core conventions (the base):**
 one file = one object · names are search hooks · links via `[[brackets]]` · flat
 structure · required frontmatter · no secrets in files (pointers only) · English by
-default. Terms are canon in [[glossary]] (level / stream / flow / meta-layer / zone /
+default. Terms are canon in [[vlad-vault/glossary|glossary]] (level / stream / flow / meta-layer / zone /
 engine).
 
 ## Refinements & vlad-level deltas
@@ -44,7 +44,7 @@ engine).
   (method, glossary); `personal` = private corpora/notes; `work` =
   project-facing. Used as a metadata filter; was practiced, now written.
 - **`axis` / `layer` tagging (where it disambiguates).** Architecture / method /
-  decision docs may declare which vocabulary they sit on (canon: [[glossary]]):
+  decision docs may declare which vocabulary they sit on (canon: [[vlad-vault/glossary|glossary]]):
   `axis: vault | agentic | engine | cross`. For `axis: agentic` add `layer: base |
   meta | hybrid` — *base* = product-making (streams/orchestrator), *meta* =
   meta-layer (improving the conveyor), *hybrid* = both. Apply only where it
@@ -60,7 +60,7 @@ engine).
 
 ## Frontmatter
 
-The current machine-facing contract lives in [[schema/frontmatter]]. This file
+The current machine-facing contract lives in [[vlad-vault/schema/frontmatter|schema/frontmatter]]. This file
 states the vault principle; schema states the fields and enums agents should
 lint/index against.
 

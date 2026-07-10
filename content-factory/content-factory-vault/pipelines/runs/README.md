@@ -15,12 +15,12 @@ related:
 
 Зеркало agentics/runs: run-data роликов живёт в **бандлах витрин** (`danny-content/posts/<slug>/`,
 `trust: primary`); сюда лифтится только **дистиллят-ретро**. Индекс регистрирует каждый прогон
-content-type (чтобы карта не устаревала). **Что писать в `run.md`** — [[../method/run-schema]]
+content-type (чтобы карта не устаревала). **Что писать в `run.md`** — [[content-factory/content-factory-vault/pipelines/method/run-schema|method/run-schema]]
 (гейты, residual правок, грабли, дельты); Денни пишет в бандл + строку сюда, meta-layer лифтит дистиллят.
 
 ## Прогоны content-type
 
-- *(пусто)* — первый прогон content-type [[../content-type/talking-head]] предстоит на новом видео Скандара
+- *(пусто)* — первый прогон content-type [[content-factory/content-factory-vault/pipelines/content-type/talking-head|content-type/talking-head]] предстоит на новом видео Скандара
   (2026-07-06). После — дельта сюда + в `video-station`.
 
 ## Референсные прогоны (до формы content-type; run-data в бандлах)

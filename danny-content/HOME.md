@@ -28,10 +28,10 @@ _(не зафиксирована — определяется с Владом �
 
 ## Voice & platform
 
-- Голос — [[agent-charter]] (слот: заполнить с Владом).
+- Голос — [[danny-content/agent-charter|agent-charter]] (слот: заполнить с Владом).
 - Поверхности — канон в `../vlad-vault/surfaces.md`; известен канал
   «Vlad music» (`t.me/htopnot`) — статус to-verify.
-- Модель публикации — [[publishing-model]] (hub-and-spoke: markdown — источник,
+- Модель публикации — [[danny-content/publishing-model|publishing-model]] (hub-and-spoke: markdown — источник,
   платформы — рендеры).
 - **Content bank:** `../vlad-life/texts/` (свои тексты, песни), `drafts/`,
   материал из `../music/`.
@@ -44,15 +44,15 @@ _(пусто)_
 ## Reading shelf (`reading/`)
 
 Внешние тексты, стоящие внимания (друзья, конкуренты, союзники по теме) —
-редакционный вход, не наши черновики. Door: [[reading/README]]. _(пусто)_
+редакционный вход, не наши черновики. Door: [[danny-content/reading/README|reading/README]]. _(пусто)_
 
 ## Posts
 
-**Живые посты → `posts/`.** Источник правды по постам = [[posts/README]]
+**Живые посты → `posts/`.** Источник правды по постам = [[danny-content/posts/README|posts/README]]
 (правила бандла + журнал «где опубликовано»). Один пост = бандл-папка
 (`post.md` + ассеты файлами).
 
-- [[posts/README]] — индекс, правила записи, журнал публикаций. _(пусто)_
-- [[posts/profiles]] — описания аккаунтов. _(заполнить)_
-- Как делать пост (пошагово) — [[post-workflow]]; голос/границы —
-  [[agent-charter]]; куда — [[routing-table]].
+- [[danny-content/posts/README|posts/README]] — индекс, правила записи, журнал публикаций. _(пусто)_
+- [[danny-content/posts/profiles|posts/profiles]] — описания аккаунтов. _(заполнить)_
+- Как делать пост (пошагово) — [[danny-content/post-workflow|post-workflow]]; голос/границы —
+  [[danny-content/agent-charter|agent-charter]]; куда — [[danny-content/routing-table|routing-table]].

@@ -33,5 +33,5 @@ Hot state. Read at session start; keep small and current.
 
 ## Pointers
 
-- Карта: [[HOME]] · спек бандла: [[content-bundle-spec]] · процессы:
-  [[processes/video-station]] · конвейер: [[pipelines/HOME]].
+- Карта: [[content-factory/content-factory-vault/HOME|HOME]] · спек бандла: [[content-factory/content-factory-vault/content-bundle-spec|content-bundle-spec]] · процессы:
+  [[content-factory/content-factory-vault/processes/video-station|processes/video-station]] · конвейер: [[content-factory/content-factory-vault/pipelines/HOME|pipelines/HOME]].

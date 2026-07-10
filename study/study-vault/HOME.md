@@ -16,22 +16,22 @@ related:
 # study-vault
 
 Knowledge base of the study domain. Semantic map — start here. Door is
-`../CLAUDE.md`. Conforms to `[[../../vlad-vault/vault-template]]`.
+`../CLAUDE.md`. Conforms to `[[vlad-vault/vault-template|vlad-vault/vault-template]]`.
 
 ## What this is
 
 Учёба Влада: что изучается, конспекты, задачи, дедлайны, уроки о том, как
-учиться. Форма (универ/курсы/самообучение) фиксируется в [[status]] при
+учиться. Форма (универ/курсы/самообучение) фиксируется в [[study/study-vault/status|status]] при
 наполнении.
 
 ## Mandatory
 
-- [[status]] — hot current state (read every session).
-- [[principles]] — conventions (vlad base + deltas; `market/` дропнут — не бизнес).
-- **plans/** — планы (семестр/курс/цель).
-- **tasks/** — per-cycle run-data.
+- [[study/study-vault/status|status]] — hot current state (read every session).
+- [[study/study-vault/principles|principles]] — conventions (vlad base + deltas; `market/` дропнут — не бизнес).
+- **plans/** — [[study/study-vault/plans/README|планы]] (семестр/курс/цель).
+- **tasks/** — [[study/study-vault/tasks/README|per-cycle run-data]].
 
 ## Zones
 
-- **notes/** — [[notes/README|конспекты]]: один файл = одна тема.
-- decisions/ · lessons/ — grow by need ([[decisions/README]] · [[lessons/README]]).
+- **notes/** — [[study/study-vault/notes/README|конспекты]]: один файл = одна тема.
+- decisions/ · lessons/ — grow by need ([[study/study-vault/decisions/README|decisions/README]] · [[study/study-vault/lessons/README|lessons/README]]).

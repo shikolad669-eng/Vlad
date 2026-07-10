@@ -16,4 +16,4 @@ related: [../HOME, ../method/streams, ../../processes/video-station]
 `skandar-academy/content/design-system/`).
 
 **Форма при заполнении:** вход = контент слайдов (не стиль) → Claude Design → рендер PNG → бандл.
-Один рендерер стиля maksi — общий с плашками/обложкой. Механика — [[../method/streams]].
+Один рендерер стиля maksi — общий с плашками/обложкой. Механика — [[content-factory/content-factory-vault/pipelines/method/streams|method/streams]].

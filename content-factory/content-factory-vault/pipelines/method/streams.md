@@ -16,7 +16,7 @@ related:
 # Method — стримы, контракт, гейты, чекпоинт, субагенты
 
 Агентская механика **любого** видео-пайплайна цеха. Конкретный порядок — в content-type (`content-type/`);
-здесь общий слой. Ремесленные пороги/цифры — [[../../processes/video-station]].
+здесь общий слой. Ремесленные пороги/цифры — [[content-factory/content-factory-vault/processes/video-station|processes/video-station]].
 
 ## Стримы (дорожки конвейера)
 
@@ -45,7 +45,7 @@ related:
 ## Четыре код-гейта
 
 Грабли, зашитые в код — не вернутся из прозы. Каждый = ошибка, получившая отзыв, теперь проверяется
-машиной. Пороги — в [[../../processes/video-station]]; здесь имя и суть.
+машиной. Пороги — в [[content-factory/content-factory-vault/processes/video-station|processes/video-station]]; здесь имя и суть.
 
 1. **контраст-структурный** — мерить текст↔подложка на **ярчайшем** кадре окна; не прошёл floor →
    поднять непрозрачность/скрим **до** сборки. (`contrast.py`)
@@ -76,4 +76,4 @@ related:
 
 ---
 
-See also: [[../content-type/talking-head]] · [[../../processes/video-station]].
+See also: [[content-factory/content-factory-vault/pipelines/content-type/talking-head|content-type/talking-head]] · [[content-factory/content-factory-vault/processes/video-station|processes/video-station]].

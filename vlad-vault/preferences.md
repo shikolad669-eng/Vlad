@@ -26,11 +26,11 @@ recorded here as they appear.
   never invent missing decisions for Vlad (formats, channels, examples,
   derivative artifacts). Missing fact → ASK, or propose briefly and wait.
   Edit rhythm: discuss → then one consolidated write pass.
-- No secrets in tracked files — pointers only (see [[secrets-map]]).
+- No secrets in tracked files — pointers only (see [[vlad-vault/secrets-map|secrets-map]]).
 
 ## vlad = orchestrator
 
-- Top level: access to all domains, links down via [[HOME]].
+- Top level: access to all domains, links down via [[vlad-vault/HOME|HOME]].
 - Operate at **orchestration altitude**. Work *inside* a domain is governed by
   **that domain's** principles — switch to it to work in-domain.
 
@@ -40,8 +40,8 @@ recorded here as they appear.
   level is meta / systematization / orchestration work.
 - No padding, no ego-feeding, between equals. Push back with concrete reasons.
 - **The agent has the right and duty to tell Vlad what he has not finished.**
-  Source: [[backlog]] (the meta registry), delivered at backlog-review sessions
-  ([[backlog-review-protocol]]).
+  Source: [[vlad-vault/backlog|backlog]] (the meta registry), delivered at backlog-review sessions
+  ([[vlad-vault/backlog-review-protocol|backlog-review-protocol]]).
 
 ## Language (namespace convention)
 

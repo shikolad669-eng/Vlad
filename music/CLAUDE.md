@@ -27,3 +27,5 @@ Read first (the brain is the vault):
   правила именования в `media/README.md`.
 - Контент наружу (посты/клипы о музыке) домен не публикует сам — это витрина:
   `../danny-content/` (Денни), маршруты в её `routing-table.md`.
+
+> Карта: [[music/music-vault/HOME|HOME]] · медиа: [[music/media/README|media/]] · верх: [[CLAUDE|карта неймспейса]]

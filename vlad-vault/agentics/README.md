@@ -24,8 +24,8 @@ there during joint sessions. This follows the method's own portability rule:
 one method, many projects — referenced, not copied; improving it once
 propagates everywhere.
 
-Horizontal axis model (streams / flows / meta-layer) — [[../workflow-streams]];
-terms — [[../glossary]].
+Horizontal axis model (streams / flows / meta-layer) — [[vlad-vault/workflow-streams|workflow-streams]];
+terms — [[vlad-vault/glossary|glossary]].
 
 ## What accumulates here
 

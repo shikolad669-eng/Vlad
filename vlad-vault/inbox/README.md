@@ -24,8 +24,8 @@ frontmatter required, one line is enough. Vlad drops things himself or says
 Rules:
 
 - **Not storage.** Everything here gets routed out at a backlog-review session
-  ([[../backlog-review-protocol]]): external material → [[../field-radar]],
-  idea → `ideas/`, task → executor domain (+ one line in [[../backlog]]),
+  ([[vlad-vault/backlog-review-protocol|backlog-review-protocol]]): external material → [[vlad-vault/field-radar|field-radar]],
+  idea → `ideas/`, task → executor domain (+ one line in [[vlad-vault/backlog|backlog]]),
   personal-development material → `for-vlad/`.
-- Every routed item leaves a **one-line trace in [[../backlog]]** — that is the
+- Every routed item leaves a **one-line trace in [[vlad-vault/backlog|backlog]]** — that is the
   "nothing gets lost" guarantee.

@@ -33,7 +33,7 @@ related:
 - **`status.md` / `principles.md`** — не входы, но дверь/карта должны на них
   указывать в project-vault (горячее состояние + правила).
 - **Проекция (`danny-content/`, `public/`)** — дверь + карта есть, **vault нет**:
-  не источник, а выход. Отсутствие `-vault/` = признак проекции ([[glossary]]).
+  не источник, а выход. Отсутствие `-vault/` = признак проекции ([[vlad-vault/glossary|glossary]]).
 
 Легенда: `[door]` CLAUDE.md · `[map]` HOME.md · `[hot]` status.md ·
 `[rules]` principles.md · `[human]` README.md · ✓ ок · ✗ пробел

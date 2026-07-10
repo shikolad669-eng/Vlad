@@ -24,4 +24,4 @@ Hot state. Read at session start; keep small and current.
 
 ## Pointers
 
-- Карта: [[HOME]] · правила: [[principles]].
+- Карта: [[study/study-vault/HOME|HOME]] · правила: [[study/study-vault/principles|principles]].

@@ -18,7 +18,7 @@ related:
 The **base-of-bases** for how a domain folder and its vault are laid out. Domains
 (`music`, `study`, `content-factory`, …) conform to this and record only
 their **deltas** in their own `principles.md`. Object-level writing rules live in
-[[principles]]; this file is **structure + entry-point contract**.
+[[vlad-vault/principles|principles]]; this file is **structure + entry-point contract**.
 
 ## The model — the folder is the entry point
 
@@ -59,14 +59,14 @@ filename is harness-specific**.
   vault root. Semantic navigation by topic. Do **not** duplicate it at the workspace
   root — the map lives in the vault.
 - **`README.md` — humans.** Optional. Never put agent routing only in README — the
-  harness does not open it (the "cosmomap door bug" precedent from the skandar base, see [[entry-points]]).
+  harness does not open it (the "cosmomap door bug" precedent from the skandar base, see [[vlad-vault/entry-points|entry-points]]).
 - A folder that is only a knowledge vault (no code) still gets a `CLAUDE.md` door if it
   can be opened as cwd; it may be a one-line redirect into `HOME.md`.
 
 ## Project-vault skeleton
 
 `<domain>-vault/`. **Mandatory** spine + **shared** body + **optional** by business
-type. Each zone is one-file-per-object per [[principles]].
+type. Each zone is one-file-per-object per [[vlad-vault/principles|principles]].
 
 **Mandatory**
 - `HOME.md` [map], `status.md` [hot], `principles.md` [rules], `secrets-map.md` (pointers).
@@ -112,11 +112,11 @@ side-docs.**
 
 ## Base + deltas
 
-This template + [[principles]] are the **base**. A project vault's `principles.md`
+This template + [[vlad-vault/principles|principles]] are the **base**. A project vault's `principles.md`
 opens with *"follows skandar base + these deltas"* and lists only what it changes
 (e.g. study drops `market/` — not a business; music keeps it). New projects are
 **born from this template**, so they are correct on day one rather than retrofitted.
 
 ## Conformance
 
-Live status of every door/map across the namespace → [[entry-points]].
+Live status of every door/map across the namespace → [[vlad-vault/entry-points|entry-points]].

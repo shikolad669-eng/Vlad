@@ -85,3 +85,13 @@
 > Канон структуры: `vlad-vault/vault-template.md` (база-баз) +
 > `vlad-vault/entry-points.md` (двери/карты). Обзор одной страницей:
 > `vlad-vault/meta-map.md`.
+
+## Навигация (граф)
+
+[[vlad-vault/HOME|vlad-vault]] · [[vlad-life/HOME|vlad-life]] ([[vlad-life/CLAUDE|дверь]]) ·
+[[music/music-vault/HOME|music]] ([[music/CLAUDE|дверь]]) ·
+[[study/study-vault/HOME|study]] ([[study/CLAUDE|дверь]]) ·
+[[content-factory/content-factory-vault/HOME|content-factory]] ([[content-factory/CLAUDE|дверь]]) ·
+[[danny-content/HOME|danny-content]] ([[danny-content/CLAUDE|дверь]]) ·
+[[public/HOME|public]] ([[public/CLAUDE|дверь]]) ·
+[[documents/README|documents]] · [[secrets/README|secrets]]

@@ -37,9 +37,9 @@ related:
   здесь** (уточнение 2026-07-04): кидает куда близко (`~/skandar-academy/_inbox/`,
   корень рабочего уровня); перенос на склад — работа агента.
 - **Автопостинг** — публикация в TG/IG/куда угодно по `ready`-бандлам. Базис —
-  [[../tools/telegram-channel-bot]].
+  [[content-factory/content-factory-vault/tools/telegram-channel-bot|tools/telegram-channel-bot]].
 - **Спек бандла** — завод владеет единым стандартом контент-единицы:
-  [[../content-bundle-spec]]. Витрины (danny-content, академия) применяют.
+  [[content-factory/content-factory-vault/content-bundle-spec|content-bundle-spec]]. Витрины (danny-content, академия) применяют.
 
 **Чем завод НЕ является:** витриной. Смыслом, голосом и routing владеют витрины
 (`~/vlad/danny-content/` — Денни, личный бренд; `~/skandar-academy/` — образование).

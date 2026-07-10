@@ -13,8 +13,8 @@ related:
 
 # Principles — content-factory (deltas)
 
-Follows the **skandar base**: `[[../../vlad-vault/principles]]` (object rules)
-+ `[[../../vlad-vault/vault-template]]` (structure & entry points). Only deltas
+Follows the **skandar base**: `[[vlad-vault/principles|vlad-vault/principles]]` (object rules)
++ `[[vlad-vault/vault-template|vlad-vault/vault-template]]` (structure & entry points). Only deltas
 here.
 
 ## Deltas

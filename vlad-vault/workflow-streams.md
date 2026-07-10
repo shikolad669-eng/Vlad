@@ -26,7 +26,7 @@ canon that keeps them distinct and records how they connect.
 
 ## Glossary
 
-The canonical term definitions live in their own object → **[[glossary]]** (level / stream / flow /
+The canonical term definitions live in their own object → **[[vlad-vault/glossary|glossary]]** (level / stream / flow /
 meta-layer / orchestrator / engine, with RU aliases). Read it first; this file uses those terms.
 
 **Stream vs flow** are perpendicular, not two sizes of one thing. A stream is a lane (container,
@@ -253,7 +253,7 @@ to exist explicitly. First worked example + framed questions:
 
 ## Terminology cleanup — done (2026-06-04)
 
-The vault-wide rename is complete (canon: [[glossary]]). Propagated: `context.md` (streams, not
+The vault-wide rename is complete (canon: [[vlad-vault/glossary|glossary]]). Propagated: `context.md` (streams, not
 "semantic layers"), `errors.md`, `HOME.md`, `decisions/2026-06-02-namespace-systematization`,
 `skandar/CLAUDE.md` (dropped "семантические" from levels), `decisions/agent-knowledge-architecture`
 (knowledge **zones**, not "semantic layers"). A third structural vocabulary surfaced — knowledge

@@ -16,7 +16,7 @@ related:
 # Lessons — грабли, ставшие код-гейтами
 
 Подтверждённые правила (rule + trigger), зашитые в код content-type — чтобы не возвращались из прозы.
-Пороги/цифры — [[../../processes/video-station]]; память — `~/.claude/projects/.../memory/`.
+Пороги/цифры — [[content-factory/content-factory-vault/processes/video-station|processes/video-station]]; память — `~/.claude/projects/.../memory/`.
 
 - **контраст-структурный** — *trigger:* любой оверлей/плашка/обложка на HDR/пёстром фоне.
   *rule:* мерить контраст текст↔подложка **на ярчайшем кадре окна в коде**, подложка ≥92%, не «на

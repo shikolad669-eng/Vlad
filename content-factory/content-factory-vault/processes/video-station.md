@@ -17,7 +17,7 @@ related:
 
 # Видео-станция — процессный канон цеха (ремесло)
 
-Станционный уровень знания «как делаем видео» ([[../decisions/2026-07-04-factory-as-workshop]]:
+Станционный уровень знания «как делаем видео» ([[content-factory/content-factory-vault/decisions/2026-07-04-factory-as-workshop|decisions/2026-07-04-factory-as-workshop]]:
 процессы живут в заводе). **Дистиллят, не первоисточник**: run-data конкретных
 роликов остаётся в бандлах витрин (`trust: primary`), сюда поднимаются правила,
 константы и грабли, подтверждённые прогоном. Новый прогон → заметки в бандле →
@@ -25,7 +25,7 @@ related:
 
 > **Шов конвейер/ремесло (2026-07-06):** этот док = **ремесло** (константы, ffmpeg-цепочки,
 > пороги гейтов, грабли жанра). **Агентский конвейер** (стримы, порядок, контракт ручное/авто,
-> субагенты, review-чекпоинт, content-type `вход×цель`) — в [[../pipelines/HOME]] (зеркало skandar
+> субагенты, review-чекпоинт, content-type `вход×цель`) — в [[content-factory/content-factory-vault/pipelines/HOME|pipelines/HOME]] (зеркало skandar
 > `agentics/`). Правило: конвейер **называет** гейт → этот док даёт **порог** → `video-pipeline/`
 > (код в корне завода) **исполняет**. Не дублировать между ними.
 
@@ -37,7 +37,7 @@ related:
 ## Статус станции и треки
 
 Станция **полуручная**: сборка bash-скриптами по этим правилам; право на полную
-станцию — после ~3 поставок на трек (build-discipline [[../plans/vision]]).
+станцию — после ~3 поставок на трек (build-discipline [[content-factory/content-factory-vault/plans/vision|plans/vision]]).
 Решение Скандара 2026-07-03: **станцию собирает метаагент по run-записям, руками
 не строим.**
 
@@ -46,11 +46,11 @@ related:
 | A — генеративный | полностью ИИ (Flow/Veo) | 1 (reel-01) | `reels/reel-01-clone-jutsu/` |
 | B — говорящая голова | съёмка Скандара, ИИ монтирует | 1 (meta-montage, звук брак) | `content/2026-07-04-reel-meta-montage/` |
 | C — трекинг-VFX | локальный композ поверх реального клипа | in-progress | `reels/reel-03-fire-dance/` |
-| D — нарезка длинного | запись → пачка рилсов | 0 (**бэклог** с 2026-07-04) | [[../plans/2026-07-02-video-station-first-run]] |
+| D — нарезка длинного | запись → пачка рилсов | 0 (**бэклог** с 2026-07-04) | [[content-factory/content-factory-vault/plans/2026-07-02-video-station-first-run|plans/2026-07-02-video-station-first-run]] |
 
 Пути run-data — от `~/skandar-academy/content/`.
 
-**Форматы-обёртки (ортогональны трекам):** [[before-after-split]] — кандидат, 0 прогонов
+**Форматы-обёртки (ортогональны трекам):** [[content-factory/content-factory-vault/processes/before-after-split|before-after-split]] — кандидат, 0 прогонов
 (бэклог), освоен разбором чужого референса. Оборачивает выход любого трека сплитом
 против оригинала.
 
@@ -58,7 +58,7 @@ related:
 
 - **Вход:** бриф (тема, витрина, поверхность из `~/vlad/vlad-vault/surfaces.md`)
   + сырьё со склада `../intake/` (raw = записи Скандара, primary; gen = генерации).
-- **Выход:** ассеты в бандл витрины по [[../content-bundle-spec]] (видео, обложка,
+- **Выход:** ассеты в бандл витрины по [[content-factory/content-factory-vault/content-bundle-spec|content-bundle-spec]] (видео, обложка,
   subs/overlays как генерируемые артефакты + их скрипты в бандле).
 - **Не делает станция:** тексты и выбор лучших дублей (Скандар), голос/routing/постинг
   (витрина).
@@ -244,7 +244,7 @@ Nano Banana) → **именованный персонаж проекта во F
 Движки/API — policy станции: **direct API владельца модели first**, агрегаторы —
 полигон/fallback (Veo/Gemini первый адаптер; Seedance 2.x обязательный второй;
 Luma, Runway дальше; Sora не закладывать — sunset API 2026-09-24). Канон и целевой
-adapter layer: [[../plans/2026-07-02-video-station-first-run]] («Генеративный трек»).
+adapter layer: [[content-factory/content-factory-vault/plans/2026-07-02-video-station-first-run|plans/2026-07-02-video-station-first-run]] («Генеративный трек»).
 Flow API в подписке нет — генерация пока ручная в UI.
 
 ## Трек B — говорящая голова
@@ -342,14 +342,14 @@ Flow API в подписке нет — генерация пока ручная
 сильных моментов LLM (законченная мысль, хук в первые 2 с, 30–60 с) → нарезка +
 кадрирование 9:16 → сабы. Страховка — SaaS-нарезка (Opus Clip / Klap / Vizard, тест
 за Скандаром; главная проверка — качество русских сабов). Детали:
-[[../plans/2026-07-02-video-station-first-run]]. После прогона — дельта сюда.
+[[content-factory/content-factory-vault/plans/2026-07-02-video-station-first-run|plans/2026-07-02-video-station-first-run]]. После прогона — дельта сюда.
 
 ## Автоматизация (кандидаты в станцию)
 
 Из run-записей:
 
 - **Декларативная сборка** — research 2026-07-04 →
-  [[../research/2026-07-04-agentic-montage-frameworks]]; **пилот auto-editor `.v3`
+  [[content-factory/content-factory-vault/research/2026-07-04-agentic-montage-frameworks|research/2026-07-04-agentic-montage-frameworks]]; **пилот auto-editor `.v3`
   сделан 2026-07-04** (meta-montage пересобран из JSON-таймлайна): сабы/бейджи/панчи
   сходятся в ±1 кадр, звук идентичен; вся trim/concat-механика ушла в генерируемый
   JSON, post-ffmpeg остался только для эффектов (punch/бейджи/ASS/звук/экспорт).

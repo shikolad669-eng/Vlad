@@ -51,7 +51,7 @@ about the others:
 | **orchestrator** | agentic | The conductor that drives the streams to ship **one product**. Lives inside the product axis. Cares about output quality, not the conveyor. | meta-layer |
 | **engine (движок)** | — | The retrieval/RAG substrate (`memory-layer`: Chroma, hybrid search). Namespace-wide infrastructure, versioned in git, no trust label. Meta states the *demand*; the engine *supplies*. | meta-layer, stream |
 | **zone** | knowledge | A curation tier of the knowledge base, each with its own semantics: **canon / precedent / journal / lessons**. Maps to folders. Answers *how distilled / how trusted a piece of knowledge is*. | layer, level |
-| **harness (харнесс)** | — | The runtime client executing an agent session: resolves cwd → auto-loads the door chain (`CLAUDE.md` up the parents), supplies tools / permissions / skills / auto-memory; enforces its own safety gates (autonomy edge in run-data). Interchangeable & disposable: Claude Code, Codex (door = `AGENTS.md`), chat-Claude (recorder lives there), Agent SDK. `~/.claude/` is harness **cache**, not truth; data must survive any harness (LLM-independence). The **agent** is the charter/role (markdown); the harness *executes* it; the **engine** retrieves. Door contract: [[entry-points]], [[vault-template]]; cwd-model: `~/skandar/skandar-vault/decisions/2026-06-30-agent-architecture.md`. | agent, engine, model, level |
+| **harness (харнесс)** | — | The runtime client executing an agent session: resolves cwd → auto-loads the door chain (`CLAUDE.md` up the parents), supplies tools / permissions / skills / auto-memory; enforces its own safety gates (autonomy edge in run-data). Interchangeable & disposable: Claude Code, Codex (door = `AGENTS.md`), chat-Claude (recorder lives there), Agent SDK. `~/.claude/` is harness **cache**, not truth; data must survive any harness (LLM-independence). The **agent** is the charter/role (markdown); the harness *executes* it; the **engine** retrieves. Door contract: [[vlad-vault/entry-points|entry-points]], [[vlad-vault/vault-template|vault-template]]; cwd-model: `~/skandar/skandar-vault/decisions/2026-06-30-agent-architecture.md`. | agent, engine, model, level |
 
 ## `meta-` is a cross-axis prefix (not reserved)
 
@@ -133,4 +133,4 @@ ambiguous. Always write the transliteration: `стрим` (stream) or `флоу`
 - retired transliteration: `волт` / `вольт` / `мета-волт` → always English **vault** / **meta-vault** (indeclinable). «вольт» reads as voltage.
 - Drop "semantic" from "semantic levels" — it differentiates nothing.
 
-See also: [[workflow-streams]] (the model + how the axes connect).
+See also: [[vlad-vault/workflow-streams|workflow-streams]] (the model + how the axes connect).
