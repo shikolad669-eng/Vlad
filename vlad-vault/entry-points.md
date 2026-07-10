@@ -50,6 +50,8 @@ related:
 │   └─ music-vault/HOME.md         [map]  ✓  + status ✓ + principles ✓
 ├─ study/CLAUDE.md                 [door] ✓
 │   └─ study-vault/HOME.md         [map]  ✓  + status ✓ + principles ✓
+├─ drafting/CLAUDE.md              [door] ✓  (+ cad/ тяжёлые файлы, вне git)
+│   └─ drafting-vault/HOME.md      [map]  ✓  + status ✓ + principles ✓
 ├─ content-factory/CLAUDE.md       [door] ✓  (цех; зеркало завода Скандара)
 │   └─ content-factory-vault/HOME.md [map] ✓ + status ✓ + principles ✓
 ├─ danny-content/CLAUDE.md         [door] ✓  + HOME.md [map] ✓   (проекция, агент Денни)
@@ -62,6 +64,9 @@ related:
 
 - [x] 2026-07-10 — неймспейс рождён по `vault-template` целиком (все двери и
   карты созданы одним прогоном; зеркало структуры неймспейса Скандара).
+- [x] 2026-07-10 — добавлен домен `drafting/` (чертежи) по `vault-template`:
+  дверь + vault (дельта: `market/` дропнут, зона `drawings/`, тяжёлые файлы в
+  `cad/` вне git). Зеркало на стороне Скандара — при синхронизации.
 - [ ] `AGENTS.md`-твины дверей — не созданы; завести, если появится второй
   харнесс (Codex и т.п.).
 

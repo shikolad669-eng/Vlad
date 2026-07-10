@@ -17,6 +17,8 @@ vlad-life/inbox/*
 # --- heavy files: structure tracked, content local ---
 music/media/*
 !music/media/README.md
+drafting/cad/*
+!drafting/cad/README.md
 documents/*
 !documents/README.md
 content-factory/intake/inbox/*
