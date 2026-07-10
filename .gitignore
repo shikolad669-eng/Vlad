@@ -1,0 +1,36 @@
+# --- secrets: NEVER commit ---
+secrets/*
+!secrets/README.md
+.env
+*.env
+!.env.example
+*.key
+*.pem
+id_*
+
+# --- personal: diary/inbox content stays local, structure tracked ---
+vlad-life/diary/*
+!vlad-life/diary/README.md
+vlad-life/inbox/*
+!vlad-life/inbox/README.md
+
+# --- heavy files: structure tracked, content local ---
+music/media/*
+!music/media/README.md
+documents/*
+!documents/README.md
+content-factory/intake/inbox/*
+content-factory/intake/raw/*
+content-factory/intake/gen/*
+content-factory/intake/ref/*
+!content-factory/intake/*/README.md
+
+# --- os / editors ---
+.DS_Store
+.obsidian/
+
+# --- python (when code projects appear) ---
+__pycache__/
+*.pyc
+.venv/
+venv/
