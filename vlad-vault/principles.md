@@ -15,7 +15,7 @@ This is the **base** for vault conventions across the namespace. Project vaults
 this file holds the object-level writing rules.
 
 **Core conventions (the base):**
-one file = one object · names are search hooks · links via [[brackets]] · flat
+one file = one object · names are search hooks · links via `[[brackets]]` · flat
 structure · required frontmatter · no secrets in files (pointers only) · English by
 default. Terms are canon in [[vlad-vault/glossary|glossary]] (level / stream / flow / meta-layer / zone /
 engine).
