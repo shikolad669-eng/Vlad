@@ -35,6 +35,8 @@ related:
 личное (primary)                       работа (свой scope + свой агент)
 vlad-life   primary  дневник/тексты    music            (без имени)  + media/ вне git
                                        study            (без имени)
+                                       drafting         (без имени)  + cad/ вне git
+                                       discord-custom   (без имени)  бизнес + assets/ вне git
                                        content-factory  Завод  (цех, не витрина)
 
 потоки:
@@ -50,6 +52,8 @@ intake (цех) ─станки─► Денни ─бандлы по bundle-spe
 | `~/vlad/vlad-life` | живой первоисточник | primary | — (источник, не проект) | `CLAUDE.md` |
 | `~/vlad/music` | музыка: треки, выступления, релизы | work | без имени | `CLAUDE.md` |
 | `~/vlad/study` | учёба | work | без имени | `CLAUDE.md` |
+| `~/vlad/drafting` | чертежи: детали, узлы, спеки | work | без имени | `CLAUDE.md` |
+| `~/vlad/discord-custom` | бизнес: заказная кастомизация Discord | work | без имени | `CLAUDE.md` |
 | `~/vlad/content-factory` | цех: процессы, станки, intake | work | Завод | `CLAUDE.md` |
 | `~/vlad/danny-content` | проекция «личный бренд» | projection | Денни | `CLAUDE.md` |
 | `~/vlad/public` | проекция «наружу» | projection | — | `CLAUDE.md` |

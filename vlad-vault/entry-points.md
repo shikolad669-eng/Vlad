@@ -52,6 +52,8 @@ related:
 │   └─ study-vault/HOME.md         [map]  ✓  + status ✓ + principles ✓
 ├─ drafting/CLAUDE.md              [door] ✓  (+ cad/ тяжёлые файлы, вне git)
 │   └─ drafting-vault/HOME.md      [map]  ✓  + status ✓ + principles ✓
+├─ discord-custom/CLAUDE.md        [door] ✓  (бизнес; + assets/ вне git)
+│   └─ discord-custom-vault/HOME.md [map] ✓  + status ✓ + principles ✓ + clients/ + positioning
 ├─ content-factory/CLAUDE.md       [door] ✓  (цех; зеркало завода Скандара)
 │   └─ content-factory-vault/HOME.md [map] ✓ + status ✓ + principles ✓
 ├─ danny-content/CLAUDE.md         [door] ✓  + HOME.md [map] ✓   (проекция, агент Денни)
@@ -67,6 +69,10 @@ related:
 - [x] 2026-07-10 — добавлен домен `drafting/` (чертежи) по `vault-template`:
   дверь + vault (дельта: `market/` дропнут, зона `drawings/`, тяжёлые файлы в
   `cad/` вне git). Зеркало на стороне Скандара — при синхронизации.
+- [x] 2026-07-20 — добавлен домен `discord-custom/` (бизнес: заказная
+  кастомизация Discord) по `vault-template`: дверь + vault (дельта: клиентский
+  бизнес → зоны `clients/` + `positioning.md`; тяжёлая графика в `assets/` вне
+  git). Зеркало на стороне Скандара — при синхронизации, если он заведёт его.
 - [ ] `AGENTS.md`-твины дверей — не созданы; завести, если появится второй
   харнесс (Codex и т.п.).
 

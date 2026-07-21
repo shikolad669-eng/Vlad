@@ -19,6 +19,8 @@ music/media/*
 !music/media/README.md
 drafting/cad/*
 !drafting/cad/README.md
+discord-custom/assets/*
+!discord-custom/assets/README.md
 documents/*
 !documents/README.md
 content-factory/intake/inbox/*

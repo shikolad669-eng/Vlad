@@ -23,7 +23,8 @@
 
 - **личное:** `vlad-life/` — живой первоисточник (дневник). `trust: primary`.
 - **работа:** `music/` (музыка), `study/` (учёба), `drafting/` (чертежи),
-  `content-factory/` (цех контента).
+  `content-factory/` (цех контента), `discord-custom/` (бизнес: заказная
+  кастомизация Discord).
 
 **Иерархия, не демократия:** top-агент пишет во все уровни ниже; нижние
 горизонтально друг другу не пишут. Работая в нижнем уровне, агент подчиняется
@@ -67,6 +68,9 @@
 - `study/` — домен учёбы: своя дверь + `study-vault/`.
 - `drafting/` — домен чертежей: своя дверь + `drafting-vault/` + `cad/` (тяжёлые
   файлы чертежей DWG/STEP/PDF, вне git).
+- `discord-custom/` — **бизнес** заказной кастомизации Discord (сервера, боты,
+  брендинг, модерация): своя дверь + `discord-custom-vault/` (клиентский:
+  `clients/` + `positioning.md`) + `assets/` (тяжёлая графика, вне git).
 - `content-factory/` — **цех** контента (агент Завод): процессы, станки, intake
   сырья. Зеркало `maksi-content-factory` Скандара; канон живого венчура — у него.
 - `danny-content/` — **проекция** личного бренда (агент Денни): дверь + карта,
@@ -96,6 +100,7 @@
 [[music/music-vault/HOME|music]] ([[music/CLAUDE|дверь]]) ·
 [[study/study-vault/HOME|study]] ([[study/CLAUDE|дверь]]) ·
 [[drafting/drafting-vault/HOME|drafting]] ([[drafting/CLAUDE|дверь]]) ·
+[[discord-custom/discord-custom-vault/HOME|discord-custom]] ([[discord-custom/CLAUDE|дверь]]) ·
 [[content-factory/content-factory-vault/HOME|content-factory]] ([[content-factory/CLAUDE|дверь]]) ·
 [[danny-content/HOME|danny-content]] ([[danny-content/CLAUDE|дверь]]) ·
 [[public/HOME|public]] ([[public/CLAUDE|дверь]]) ·
