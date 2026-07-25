@@ -23,6 +23,7 @@
 
 - **личное:** `vlad-life/` — живой первоисточник (дневник). `trust: primary`.
 - **работа:** `music/` (музыка), `study/` (учёба), `drafting/` (чертежи),
+  `phyto/` (бизнес: оптовая фитопродукция, дистрибуция трав Гордеева по РК),
   `content-factory/` (цех контента), `discord-custom/` (бизнес: заказная
   кастомизация Discord).
 
@@ -68,6 +69,9 @@
 - `study/` — домен учёбы: своя дверь + `study-vault/`.
 - `drafting/` — домен чертежей: своя дверь + `drafting-vault/` + `cad/` (тяжёлые
   файлы чертежей DWG/STEP/PDF, вне git).
+- `phyto/` — **бизнес** оптовой фитопродукции: своя дверь + `phyto-vault/`
+  (LLM-вики). Эксклюзивный дистрибьютор трав Гордеева по РК, склад — Караганда;
+  витрина travnik.kz + Instagram @sibir.kz (2026-07-24).
 - `discord-custom/` — **бизнес** заказной кастомизации Discord (сервера, боты,
   брендинг, модерация): своя дверь + `discord-custom-vault/` (клиентский:
   `clients/` + `positioning.md`) + `assets/` (тяжёлая графика, вне git).
@@ -100,6 +104,7 @@
 [[music/music-vault/HOME|music]] ([[music/CLAUDE|дверь]]) ·
 [[study/study-vault/HOME|study]] ([[study/CLAUDE|дверь]]) ·
 [[drafting/drafting-vault/HOME|drafting]] ([[drafting/CLAUDE|дверь]]) ·
+[[phyto/phyto-vault/HOME|phyto]] ([[phyto/CLAUDE|дверь]]) ·
 [[discord-custom/discord-custom-vault/HOME|discord-custom]] ([[discord-custom/CLAUDE|дверь]]) ·
 [[content-factory/content-factory-vault/HOME|content-factory]] ([[content-factory/CLAUDE|дверь]]) ·
 [[danny-content/HOME|danny-content]] ([[danny-content/CLAUDE|дверь]]) ·

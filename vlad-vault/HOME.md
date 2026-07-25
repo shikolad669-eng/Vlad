@@ -4,7 +4,7 @@ status: active
 sensitivity: normal
 scope: all
 tags: [home, index, vault, map]
-updated: 2026-07-10
+updated: 2026-07-25
 ---
 
 # vlad-vault
@@ -30,6 +30,14 @@ meta-vault верхнего level'а: vault *о самом неймспейсе*
 - **`../music/`** — музыка: треки, демки, выступления, релизы. Дверь + `music-vault/`
   + `media/` (файлы вне git).
 - **`../study/`** — учёба. Дверь + `study-vault/`.
+- **`../drafting/`** — чертежи: детали, узлы, спеки. Дверь + `drafting-vault/`
+  + `cad/` (тяжёлые DWG/STEP/PDF вне git).
+- **`../phyto/`** — **бизнес**: оптовая фитопродукция, эксклюзивная дистрибуция
+  трав Гордеева по РК. Дверь + `phyto-vault/` (LLM-вики: `systems/`, `market/`,
+  `catalog/`). Канон домена живёт здесь — `phyto-sale` лишь выгрузка
+  ([[vlad-vault/meta-map|meta-map]] → «Вне карты»).
+- **`../discord-custom/`** — **бизнес**: заказная кастомизация Discord. Дверь +
+  `discord-custom-vault/` (`clients/`, `positioning.md`) + `assets/` вне git.
 - **`../content-factory/`** — **цех** контента (агент Завод): процессы, станки,
   intake сырья, автопостинг. Зеркало завода Скандара; канон живого венчура — у него.
 

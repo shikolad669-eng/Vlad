@@ -4,7 +4,7 @@ status: active
 sensitivity: normal
 scope: all
 axis: vault
-updated: 2026-07-10
+updated: 2026-07-25
 tags: [entry-points, navigation, map, claude-md, home-md, convention, namespace]
 related:
   - HOME
@@ -52,6 +52,8 @@ related:
 │   └─ study-vault/HOME.md         [map]  ✓  + status ✓ + principles ✓
 ├─ drafting/CLAUDE.md              [door] ✓  (+ cad/ тяжёлые файлы, вне git)
 │   └─ drafting-vault/HOME.md      [map]  ✓  + status ✓ + principles ✓
+├─ phyto/CLAUDE.md                 [door] ✓  (бизнес: опт фитопродукции, LLM-вики)
+│   └─ phyto-vault/HOME.md         [map]  ✓  + status ✓ + principles ✓ + sources ✓ + catalog/
 ├─ discord-custom/CLAUDE.md        [door] ✓  (бизнес; + assets/ вне git)
 │   └─ discord-custom-vault/HOME.md [map] ✓  + status ✓ + principles ✓ + clients/ + positioning
 ├─ content-factory/CLAUDE.md       [door] ✓  (цех; зеркало завода Скандара)
@@ -73,6 +75,12 @@ related:
   кастомизация Discord) по `vault-template`: дверь + vault (дельта: клиентский
   бизнес → зоны `clients/` + `positioning.md`; тяжёлая графика в `assets/` вне
   git). Зеркало на стороне Скандара — при синхронизации, если он заведёт его.
+- [x] 2026-07-24 — добавлен домен `phyto/` (бизнес: оптовая фитопродукция) по
+  `vault-template`: дверь + vault (дельта: `catalog/` — датированный снимок
+  витрины; `lessons/` вместо `drawings/`). Внесён в мета-карту 2026-07-25.
+- [ ] `Влад бизнес` (ИИ-агенты для бизнеса + клиентские базы Караганды) — вне
+  неймспейса, дверей и карт нет. Завести доменом по `vault-template`.
+  Инвентарь: [[vlad-vault/meta-map|meta-map]] → «Вне карты».
 - [ ] `AGENTS.md`-твины дверей — не созданы; завести, если появится второй
   харнесс (Codex и т.п.).
 
