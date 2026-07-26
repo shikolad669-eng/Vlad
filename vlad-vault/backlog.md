@@ -29,8 +29,18 @@ related:
 
 ## Live
 
-_(пусто — первая строка появится с первой задачей)_
+- **Зафиксировать деньги по сделке Татьяны** (сумма setup fee + подписка/мес) ·
+  `ai-agents` · [[ai-agents/ai-agents-vault/clients/tatyana|ai-agents/ai-agents-vault/clients/tatyana]]
+  → оттуда в [[ai-agents/ai-agents-vault/systems/unit-economics|unit-economics]].
+  Без факта MRR домена не считается.
+- **Оформить подписку на обслуживание Татьяне** (состав, цена, дата первого
+  платежа) · `ai-agents` · [[ai-agents/ai-agents-vault/systems/subscription|ai-agents/ai-agents-vault/systems/subscription]].
+- **Начать касания по базе Караганды** (80 лидов, ни одного контакта) ·
+  `ai-agents` · [[ai-agents/ai-agents-vault/market/README|ai-agents/ai-agents-vault/market/]].
+- **Удалить исходный волт «Влад бизнес»** после проверки домена Владом ·
+  уровень `vlad` · [[vlad-vault/meta-map|vlad-vault/meta-map]] → «Вне карты».
 
 ## Done
 
-_(пусто)_
+- 2026-07-27 — волт «Влад бизнес» слит в неймспейс доменом `ai-agents/` ·
+  [[vlad-vault/entry-points|entry-points]] → «Реестр приведения к канону».

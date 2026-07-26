@@ -25,7 +25,7 @@
 - **работа:** `music/` (музыка), `study/` (учёба), `drafting/` (чертежи),
   `phyto/` (бизнес: оптовая фитопродукция, дистрибуция трав Гордеева по РК),
   `content-factory/` (цех контента), `discord-custom/` (бизнес: заказная
-  кастомизация Discord).
+  кастомизация Discord), `ai-agents/` (бизнес: ИИ-агенты для бизнеса под ключ).
 
 **Иерархия, не демократия:** top-агент пишет во все уровни ниже; нижние
 горизонтально друг другу не пишут. Работая в нижнем уровне, агент подчиняется
@@ -75,6 +75,10 @@
 - `discord-custom/` — **бизнес** заказной кастомизации Discord (сервера, боты,
   брендинг, модерация): своя дверь + `discord-custom-vault/` (клиентский:
   `clients/` + `positioning.md`) + `assets/` (тяжёлая графика, вне git).
+- `ai-agents/` — **бизнес** ИИ-агентов для бизнеса под ключ (внедрение + подписка
+  на обслуживание): своя дверь + `ai-agents-vault/` (оффер, клиенты, база лидов
+  Караганды, LLM-вики). Заведён 2026-07-27 слиянием отдельного волта «Влад
+  бизнес» в неймспейс; первый оплаченный клиент — Татьяна.
 - `content-factory/` — **цех** контента (агент Завод): процессы, станки, intake
   сырья. Зеркало `maksi-content-factory` Скандара; канон живого венчура — у него.
 - `danny-content/` — **проекция** личного бренда (агент Денни): дверь + карта,
@@ -106,6 +110,7 @@
 [[drafting/drafting-vault/HOME|drafting]] ([[drafting/CLAUDE|дверь]]) ·
 [[phyto/phyto-vault/HOME|phyto]] ([[phyto/CLAUDE|дверь]]) ·
 [[discord-custom/discord-custom-vault/HOME|discord-custom]] ([[discord-custom/CLAUDE|дверь]]) ·
+[[ai-agents/ai-agents-vault/HOME|ai-agents]] ([[ai-agents/CLAUDE|дверь]]) ·
 [[content-factory/content-factory-vault/HOME|content-factory]] ([[content-factory/CLAUDE|дверь]]) ·
 [[danny-content/HOME|danny-content]] ([[danny-content/CLAUDE|дверь]]) ·
 [[public/HOME|public]] ([[public/CLAUDE|дверь]]) ·

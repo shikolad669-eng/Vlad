@@ -56,6 +56,9 @@ related:
 │   └─ phyto-vault/HOME.md         [map]  ✓  + status ✓ + principles ✓ + sources ✓ + catalog/
 ├─ discord-custom/CLAUDE.md        [door] ✓  (бизнес; + assets/ вне git)
 │   └─ discord-custom-vault/HOME.md [map] ✓  + status ✓ + principles ✓ + clients/ + positioning
+├─ ai-agents/CLAUDE.md             [door] ✓  (бизнес: ИИ-агенты под ключ)
+│   └─ ai-agents-vault/HOME.md     [map]  ✓  + status ✓ + principles ✓ + secrets-map ✓
+│                                            + clients/ + market/leads/ + systems/ + tools/llm/
 ├─ content-factory/CLAUDE.md       [door] ✓  (цех; зеркало завода Скандара)
 │   └─ content-factory-vault/HOME.md [map] ✓ + status ✓ + principles ✓
 ├─ danny-content/CLAUDE.md         [door] ✓  + HOME.md [map] ✓   (проекция, агент Денни)
@@ -78,9 +81,12 @@ related:
 - [x] 2026-07-24 — добавлен домен `phyto/` (бизнес: оптовая фитопродукция) по
   `vault-template`: дверь + vault (дельта: `catalog/` — датированный снимок
   витрины; `lessons/` вместо `drawings/`). Внесён в мета-карту 2026-07-25.
-- [ ] `Влад бизнес` (ИИ-агенты для бизнеса + клиентские базы Караганды) — вне
-  неймспейса, дверей и карт нет. Завести доменом по `vault-template`.
-  Инвентарь: [[vlad-vault/meta-map|meta-map]] → «Вне карты».
+- [x] 2026-07-27 — волт `Влад бизнес` слит в неймспейс доменом `ai-agents/`
+  (бизнес: ИИ-агенты под ключ) по `vault-template`: дверь + vault. 104 файла
+  перенесены и приведены к канону — имена канон-файлов в kebab-case, wiki-ссылки
+  переписаны на полные пути, дельты в `principles.md` (нет `positioning.md`;
+  `market/leads/` как отдельная зона холодной базы; frontmatter карточек лидов
+  оставлен наследным). Источник-волт — см. [[vlad-vault/meta-map|meta-map]] → «Вне карты».
 - [ ] `AGENTS.md`-твины дверей — не созданы; завести, если появится второй
   харнесс (Codex и т.п.).
 
