@@ -59,6 +59,9 @@ related:
 ├─ ai-agents/CLAUDE.md             [door] ✓  (бизнес: ИИ-агенты под ключ)
 │   └─ ai-agents-vault/HOME.md     [map]  ✓  + status ✓ + principles ✓ + secrets-map ✓
 │                                            + clients/ + market/leads/ + systems/ + tools/llm/
+├─ guitar-teaching/CLAUDE.md       [door] ✓  (бизнес: обучение игре на гитаре)
+│   └─ guitar-teaching-vault/HOME.md [map] ✓ + status ✓ + principles ✓ + secrets-map ✓
+│                                            + clients/ + market/ + curriculum/ + systems/
 ├─ content-factory/CLAUDE.md       [door] ✓  (цех; зеркало завода Скандара)
 │   └─ content-factory-vault/HOME.md [map] ✓ + status ✓ + principles ✓
 ├─ danny-content/CLAUDE.md         [door] ✓  + HOME.md [map] ✓   (проекция, агент Денни)
@@ -87,6 +90,11 @@ related:
   переписаны на полные пути, дельты в `principles.md` (нет `positioning.md`;
   `market/leads/` как отдельная зона холодной базы; frontmatter карточек лидов
   оставлен наследным). Источник-волт — см. [[vlad-vault/meta-map|meta-map]] → «Вне карты».
+- [x] 2026-07-30 — добавлен домен `guitar-teaching/` (бизнес: обучение игре на
+  гитаре) по `vault-template`: дверь + vault (дельта: клиентский +
+  образовательный бизнес → зоны `clients/` + `curriculum/`; `curriculum/`
+  явно разведён с базовым `lessons/`, чтобы не путать уроки гитары с
+  операционными уроками домена). Структура пуста, наполнение не начато.
 - [ ] `AGENTS.md`-твины дверей — не созданы; завести, если появится второй
   харнесс (Codex и т.п.).
 

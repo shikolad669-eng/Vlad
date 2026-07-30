@@ -39,6 +39,7 @@ vlad-life   primary  дневник/тексты    music            (без и�
                                        phyto            (без имени)  LLM-вики опта, канон домена
                                        discord-custom   (без имени)  бизнес + assets/ вне git
                                        ai-agents        (без имени)  бизнес: ИИ-агенты под ключ
+                                       guitar-teaching  (без имени)  бизнес: обучение гитаре
                                        content-factory  Завод  (цех, не витрина)
 
 потоки:
@@ -58,6 +59,7 @@ intake (цех) ─станки─► Денни ─бандлы по bundle-spe
 | `~/vlad/phyto` | бизнес: оптовая фитопродукция (LLM-вики) | work | без имени | `CLAUDE.md` |
 | `~/vlad/discord-custom` | бизнес: заказная кастомизация Discord | work | без имени | `CLAUDE.md` |
 | `~/vlad/ai-agents` | бизнес: ИИ-агенты для бизнеса под ключ | work | без имени | `CLAUDE.md` |
+| `~/vlad/guitar-teaching` | бизнес: обучение игре на гитаре | work | без имени | `CLAUDE.md` |
 | `~/vlad/content-factory` | цех: процессы, станки, intake | work | Завод | `CLAUDE.md` |
 | `~/vlad/danny-content` | проекция «личный бренд» | projection | Денни | `CLAUDE.md` |
 | `~/vlad/public` | проекция «наружу» | projection | — | `CLAUDE.md` |
